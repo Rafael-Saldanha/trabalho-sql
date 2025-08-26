@@ -41,7 +41,7 @@ create table pagamento(
 
 create table endereco(
 	id serial primary key,
-	cep char(8) not null unique,
+	cep char(8) not null,
 	bairro varchar(50) not null,
 	cidade varchar(50) not null,
 	numero numeric(10,0) not null,
